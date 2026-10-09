@@ -1,0 +1,3 @@
+module.exports=[32476,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(89191);a.n(d("[project]/node_modules/.pnpm/next@16.4.0_@babel+core@7.2_d597f8bd48480ebffe360c90ec170dc1/node_modules/next/dist/client/components/builtin/global-error.js"))},50802,a=>{"use strict";var b=a.i(32476);a.n(b)},71638,function(a){a.n(a.i(50802))},89191,(a,b,c)=>{"use strict";b.exports=a.r(3303).vendored["react-rsc"].ReactServerDOMTurbopackServer}];
+
+//# sourceMappingURL=1cif_next_dist_1ek0cq5kadzqa._.js.map

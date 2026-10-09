@@ -1,0 +1,10 @@
+{
+  "description": "Goghotech offers a seamless digital ecosystem for productivity and business, featuring intuitive SaaS applications, B2B services, and educational resources.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

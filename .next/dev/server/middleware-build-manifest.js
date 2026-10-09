@@ -1,0 +1,47 @@
+globalThis.__BUILD_MANIFEST = {
+  "pages": {
+    "/_app": []
+  },
+  "devFiles": [],
+  "polyfillFiles": [
+    "static/chunks/1cif_next_dist_build_polyfills_polyfill-nomodule.js"
+  ],
+  "lowPriorityFiles": [
+    "static/development/_buildManifest.js",
+    "static/development/_ssgManifest.js",
+    "static/development/_clientMiddlewareManifest.js"
+  ],
+  "rootMainFiles": [
+    "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_1a945qk568w1e._.js",
+    "static/chunks/1cif_next_dist_compiled_react-dom_cjs_react-dom-client_development_14dcgm2ym2ios.js",
+    "static/chunks/1cif_next_dist_compiled_react-dom_cjs_react-dom_development_02u1xs16mgbkd.js",
+    "static/chunks/1cif_next_dist_compiled_react-dom_0xn-ko8lxx18f._.js",
+    "static/chunks/1cif_next_dist_compiled_react-server-dom-turbopack_0ymge5s2g5krh._.js",
+    "static/chunks/1cif_next_dist_compiled_next-devtools_index_1z0p3oe_yyosh.js",
+    "static/chunks/1cif_next_dist_compiled_00d31n7odlapi._.js",
+    "static/chunks/1cif_next_dist_client_062dt_rahfqe8._.js",
+    "static/chunks/1cif_next_dist_062_5i4jta8kp._.js",
+    "static/chunks/0zix_@swc_helpers_cjs_0hi-e474n4mns._.js",
+    "static/chunks/_1anvha4rlo79g._.js",
+    "static/chunks/turbopack-_0_9tgpxc2o-y_._.js"
+  ],
+  "rootMainFilesTree": {
+    "/page": [
+      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_1a945qk568w1e._.js",
+      "static/chunks/1cif_next_dist_compiled_react-dom_cjs_react-dom-client_development_14dcgm2ym2ios.js",
+      "static/chunks/1cif_next_dist_compiled_react-dom_cjs_react-dom_development_02u1xs16mgbkd.js",
+      "static/chunks/1cif_next_dist_compiled_react-dom_0xn-ko8lxx18f._.js",
+      "static/chunks/1cif_next_dist_compiled_react-server-dom-turbopack_0ymge5s2g5krh._.js",
+      "static/chunks/1cif_next_dist_compiled_next-devtools_index_1z0p3oe_yyosh.js",
+      "static/chunks/1cif_next_dist_compiled_00d31n7odlapi._.js",
+      "static/chunks/1cif_next_dist_client_062dt_rahfqe8._.js",
+      "static/chunks/1cif_next_dist_062_5i4jta8kp._.js",
+      "static/chunks/0zix_@swc_helpers_cjs_0hi-e474n4mns._.js",
+      "static/chunks/_1anvha4rlo79g._.js",
+      "static/chunks/turbopack-_0_9tgpxc2o-y_._.js",
+      "static/chunks/_219uq1sj0q91c._.js"
+    ]
+  },
+  "pagesChunkGroupBootstrapParams": {},
+  "chunkLoadingGlobal": "TURBOPACK"
+};
