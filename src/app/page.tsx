@@ -105,6 +105,7 @@ const apps = [
     tone: "blue",
     size: "wide",
     detail: "Fokus, tanpa distraksi",
+    href: "https://notes.goghotech.my.id/",
   },
   {
     name: "GoLib",
@@ -113,6 +114,7 @@ const apps = [
     tone: "violet",
     size: "standard",
     detail: "Koleksi dalam satu tempat",
+    href: "https://lib.goghotech.my.id/",
   },
   {
     name: "GoFin",
@@ -185,7 +187,14 @@ function AppCard({ app }: { app: (typeof apps)[number] }) {
         <span className="eyebrow">{app.detail}</span>
         <h3>{app.name}</h3>
         <p>{app.description}</p>
-        <a className="text-link" href="#contact">Buka Aplikasi <Arrow /></a>
+        <a 
+          className="text-link" 
+          href={"href" in app ? app.href : "#contact"}
+          target={"href" in app ? "_blank" : undefined}
+          rel={"href" in app ? "noopener noreferrer" : undefined}
+        >
+          Buka Aplikasi <Arrow />
+        </a>
       </div>
     </article>
   );
@@ -366,7 +375,10 @@ export default function App() {
           </div>
           <div>
             <h3>Products</h3>
-            <a href="#apps">GoNotes</a><a href="#apps">GoLib</a><a href="#apps">GoFin</a><a href="#apps">GoTest</a>
+            <a href="https://notes.goghotech.my.id/" target="_blank" rel="noopener noreferrer">GoNotes</a>
+            <a href="https://lib.goghotech.my.id/" target="_blank" rel="noopener noreferrer">GoLib</a>
+            <a href="#apps">GoFin</a>
+            <a href="#apps">GoTest</a>
           </div>
           <div>
             <h3>Services</h3>
