@@ -359,7 +359,7 @@ export default function App() {
         <div className="container footer-grid">
           <div className="footer-brand">
             <a className="logo logo-light" href="#top">
-              <Image src={goghotechLogo} alt="" width={32} height={32} />
+              <img src="/goghotech-logo.jpg" alt="" width={32} height={32} />
               <span>Goghotech</span>
             </a>
             <p>Ekosistem digital Indonesia untuk bekerja, belajar, dan bertumbuh lebih baik.</p>
