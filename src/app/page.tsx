@@ -197,7 +197,7 @@ export default function App() {
       <header className="nav-wrap">
         <nav className="nav container" aria-label="Navigasi utama">
           <a className="logo" href="#top">
-            <img src="/goghotech-logo.jpg" alt="" width={32} height={32} />
+            <img src="/logo.png" alt="" width={32} height={32} />
             <span>Goghotech</span>
           </a>
           <div className="nav-links">
@@ -359,7 +359,7 @@ export default function App() {
         <div className="container footer-grid">
           <div className="footer-brand">
             <a className="logo logo-light" href="#top">
-              <img src="/goghotech-logo.jpg" alt="" width={32} height={32} />
+              <img src="/logo.png" alt="" width={32} height={32} />
               <span>Goghotech</span>
             </a>
             <p>Ekosistem digital Indonesia untuk bekerja, belajar, dan bertumbuh lebih baik.</p>
