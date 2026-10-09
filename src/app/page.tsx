@@ -1,6 +1,5 @@
 import type { ReactNode, SVGProps } from "react";
 import Image from "next/image";
-import goghotechLogo from "../assets/goghotech-logo.jpg";
 
 type IconProps = SVGProps<SVGSVGElement>;
 
@@ -198,7 +197,7 @@ export default function App() {
       <header className="nav-wrap">
         <nav className="nav container" aria-label="Navigasi utama">
           <a className="logo" href="#top">
-            <Image src={goghotechLogo} alt="" width={32} height={32} />
+            <img src="/goghotech-logo.jpg" alt="" width={32} height={32} />
             <span>Goghotech</span>
           </a>
           <div className="nav-links">
