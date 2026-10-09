@@ -1,3 +1,0 @@
-module.exports=[[3303,(a,b,c)=>{b.exports=a.r(18622)},61765,(a,b,c)=>{b.exports=a.r(3303).vendored["react-rsc"].ReactJsxRuntime},27572,a=>{var b=a.i(61765);a.s(["default",0,function({children:a}){return(0,b.jsx)("html",{lang:"id",children:(0,b.jsx)("body",{children:a})})},"metadata",0,{title:"Goghotech",description:"Ekosistem digital Indonesia untuk bekerja, belajar, dan bertumbuh lebih baik."}])}],18622,(a,b,c)=>{b.exports=a.x("next/dist/compiled/next-server/app-page-turbo.runtime.prod.js",()=>require("next/dist/compiled/next-server/app-page-turbo.runtime.prod.js"))},50645,function(a){a.n(a.i(27572))}];
-
-//# sourceMappingURL=%5Broot-of-the-server%5D__0__-0fcq-wa63._.js.map
